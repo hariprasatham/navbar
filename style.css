@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-family: "Roboto", sans-serif;
+    --size-font: 18px;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    padding: 10px 15px;
+}
+
+.contact {
+    display: flex;
+    min-width: 250px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-bar {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    justify-content: space-between;
+    background-color: #3eb4e0;
+}
+
+.social {
+    display: flex;
+    width: 300px;
+    margin-right: 200px;
+    flex-direction: column;
+    align-items: center;
+    color: #000001;
+}
+
+.follow {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.social-handles {
+    list-style: none;
+    margin-top: 15px;
+    width: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.navbar {
+    background: #064990;
+    font-size: var(--size-font);
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 40px;
+}
+
+.navbar ul {
+    display: grid;
+    list-style: none;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    width: 100%;
+    height: inherit;
+   
+}
+
+.navbar ul li {
+    text-align: center;
+    height: inherit;
+
+}
+
+.navbar ul li:hover {
+    background: #132040;
+}
+
+.navbar ul li a{
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar ul li a span{
+    height: inherit;
+    width: 100%;
+    background: #fa201f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
